@@ -1,0 +1,92 @@
+RESPONSIBLE AND PROTECTIVE USE LICENSE
+Version 1.0, 2026
+
+Copyright (c) 2026 Yuval Sinay. All rights reserved.
+
+1. DEFINITIONS
+
+"Tools" means the files, workbooks, templates, documentation, frameworks, data, and other materials made available in this repository, including modified or derived versions.
+
+"User" means any individual or legal entity that accesses, uses, copies, modifies, or distributes the Tools.
+
+2. LIMITED LICENSE GRANT
+
+Subject to full compliance with this License, the copyright holder grants the User a worldwide, royalty-free, non-exclusive license to use, copy, adapt, modify, and distribute the Tools solely for lawful, ethical, and protective purposes.
+
+Permitted purposes include defensive cybersecurity, security awareness, risk assessment, governance, compliance, audit, education, research, incident prevention, incident response, resilience, safety improvement, and the protection of people, organizations, information, systems, and infrastructure.
+
+3. LEGAL, ETHICAL, AND AUTHORIZED USE
+
+The User must:
+
+(a) comply with all applicable laws, regulations, contractual obligations, professional duties, and organizational policies;
+
+(b) obtain all permissions, authorizations, and consents required for the intended activity;
+
+(c) respect privacy, confidentiality, intellectual property, human rights, safety, fairness, and due process; and
+
+(d) apply appropriate professional judgment, human oversight, validation, and risk controls.
+
+4. PROHIBITED USES
+
+The Tools must not be used, directly or indirectly, to cause, enable, facilitate, encourage, or materially increase the risk of harm.
+
+Prohibited uses include, without limitation:
+
+(a) unauthorized access to, interference with, exploitation of, or disruption of systems, networks, accounts, devices, data, or services;
+
+(b) development, deployment, or improvement of malware, destructive code, ransomware, credential theft, phishing, fraud, impersonation, evasion, or other malicious capabilities;
+
+(c) offensive cyber operations or security testing conducted without explicit authorization and an appropriate legal basis;
+
+(d) harassment, intimidation, coercion, discrimination, manipulation, deception, unlawful surveillance, or infringement of privacy or other rights;
+
+(e) unsafe, reckless, or unvalidated use that may cause physical, psychological, financial, operational, societal, or environmental harm;
+
+(f) unlawful collection, processing, disclosure, or transfer of personal, confidential, classified, regulated, or proprietary information; or
+
+(g) any use intended to bypass legal, ethical, safety, security, governance, or accountability controls.
+
+5. ATTRIBUTION AND NOTICE
+
+Any copy or distribution of the Tools, in whole or in substantial part, must retain:
+
+(a) the copyright notice;
+
+(b) this License; and
+
+(c) attribution to Yuval Sinay as the original author.
+
+Modified versions must be clearly identified as modified and must not be represented as approved, endorsed, or authored by the original author unless written permission has been granted.
+
+6. RESPONSIBILITY OF THE USER
+
+The User is solely responsible for evaluating whether the Tools are suitable for a particular context and for implementing appropriate safeguards. The Tools do not replace legal advice, regulatory analysis, professional security testing, risk assessment, safety engineering, or management approval.
+
+7. NO ENDORSEMENT OR TRADEMARK LICENSE
+
+This License does not grant permission to use the name, trademarks, logos, or identity of the copyright holder to advertise, endorse, or promote products, services, modified works, or activities.
+
+8. TERMINATION
+
+The rights granted under this License terminate automatically upon any breach. Upon termination, the User must cease using and distributing the Tools and delete or destroy copies under the User's control, except where retention is legally required.
+
+The copyright holder may reinstate rights in writing after the breach has been remedied.
+
+9. DISCLAIMER OF WARRANTIES
+
+THE TOOLS ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS, SECURITY, NON-INFRINGEMENT, OR ERROR-FREE OPERATION.
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, LIABILITY, COST, OR EXPENSE ARISING FROM OR RELATED TO THE TOOLS OR THEIR USE, MODIFICATION, DISTRIBUTION, OR INABILITY TO USE THEM.
+
+11. SEVERABILITY
+
+If any provision of this License is held unenforceable, the remaining provisions remain in effect to the maximum extent permitted by law.
+
+12. NATURE OF THIS LICENSE
+
+This is a custom responsible-use license. Because it restricts use to lawful, ethical, and protective purposes and prohibits harmful uses, it should not be represented as an Open Source Initiative approved open-source license.
+
+By using, copying, modifying, or distributing the Tools, the User agrees to the terms of this License.

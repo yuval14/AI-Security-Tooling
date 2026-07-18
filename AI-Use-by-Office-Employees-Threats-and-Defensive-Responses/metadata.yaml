@@ -1,0 +1,13 @@
+title: "AI Use by Office Employees: Threats and Defensive Responses"
+author: "Yuval Sinay"
+year: 2026
+version: "1.0"
+status: "initial-release"
+category:
+  - ai-security
+  - ai-governance
+  - organizational-risk
+artifact_types:
+  - assessment
+  - checklist
+  - control-catalogue

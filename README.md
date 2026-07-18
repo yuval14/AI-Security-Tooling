@@ -12,4 +12,4 @@
 
 Use of these tools is permitted only for lawful, ethical, authorized, and protective purposes. The tools must not be used to cause, enable, facilitate, or increase the risk of harm.
 
-See the [Responsible and Protective Use License](./LICENSE) for the complete terms.
+The [Responsible and Protective Use License](./LICENSE) is the controlling license. The repository also includes a [Creative Commons–Inspired Sharing Notice](./CREATIVE-COMMONS-NOTICE.md) covering attribution and responsible sharing practices without replacing or weakening the protective-use restrictions.

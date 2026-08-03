@@ -3,9 +3,9 @@
 **Author:** Yuval Sinay  
 **Year:** 2026
 
-A collection of practical Excel-based tools for AI security, AI governance, secure development, security operations, red teaming, workforce awareness, and OT monitoring.
+A collection of practical Excel-based tools for AI security, cloud security operations, AI governance, secure development, detection engineering, threat hunting, red teaming, workforce awareness, and OT monitoring.
 
-The workbooks are designed to translate security concepts, standards, threat intelligence, and operational requirements into measurable assessments, checklists, dashboards, use cases, and implementation plans.
+The workbooks translate security concepts, standards, threat intelligence, cloud telemetry, and operational requirements into measurable assessments, checklists, dashboards, detection use cases, hunting procedures, and implementation plans.
 
 ## Workbook Catalog
 
@@ -17,6 +17,22 @@ The workbooks are designed to translate security concepts, standards, threat int
 A SOC engineering workbook for measuring AI telemetry coverage, logs, operational metrics, distributed traces, detection quality, threat hunting, incident-repository operationalization, investigation workflows, and SOAR response.
 
 Key components include an AI SOC dashboard, observability metrics, telemetry-source requirements, an end-to-end trace model, incident repository mapping, AI incident-detection use cases, and a detection-response matrix.
+
+### Google Cloud SOC Detection and Hunting Workbook
+
+- [Workbook page](./Google_Cloud_SOC_Detection_Hunting_Workbook/)
+
+A practical workbook for Google Cloud security operations, monitoring, detection engineering, threat hunting, incident triage, compliance oversight, and risk-based reporting.
+
+The workbook is intended to help SOC teams organize Google Cloud telemetry sources, security metrics, detection use cases, hunting hypotheses, investigation procedures, dashboards, and continuous-control monitoring in a structured operational format.
+
+### AWS Cloud SOC Detection and Hunting Workbook
+
+- [Workbook page](./AWS_Cloud_SOC_Detection_Hunting_Workbook/)
+
+A practical workbook for AWS security operations, detection engineering, threat hunting, incident investigation, compliance monitoring, dashboards, and management reporting.
+
+Planned coverage includes AWS security telemetry and log sources, SOC metrics and KPIs, detection analytics, hunting procedures, investigation support, cloud-control monitoring, charts, and risk-based reporting.
 
 ### OT Network Monitoring Metrics Workbook
 
@@ -56,14 +72,14 @@ The material addresses data exposure, shadow AI, prompt injection, unsafe integr
 ## How to Use the Tools
 
 1. Open the relevant workbook page to review its scope, intended users, and usage guidance.
-2. Download the Excel file and tailor the requirements, thresholds, owners, status fields, and evidence to the local environment.
-3. Validate assumptions with the relevant technical, operational, legal, privacy, safety, and business stakeholders.
-4. Use the workbook as a living assessment and improvement tool rather than a one-time checklist.
-5. Reassess after material changes to architecture, models, agents, tools, data, suppliers, permissions, processes, or threats.
+2. Download the Excel file, when available, and tailor the requirements, thresholds, owners, status fields, detections, hunting assumptions, and evidence to the local environment.
+3. Validate assumptions with the relevant technical, operational, legal, privacy, safety, compliance, and business stakeholders.
+4. Use each workbook as a living assessment and improvement tool rather than a one-time checklist.
+5. Reassess after material changes to architecture, cloud services, models, agents, tools, data, suppliers, permissions, processes, telemetry, or threats.
 
 ## Important Notice
 
-These workbooks are professional planning, assessment, monitoring, and awareness aids. They do not replace organization-specific risk assessments, engineering judgment, legal advice, regulatory requirements, safety procedures, vendor guidance, or formal assurance activities.
+These workbooks are professional planning, assessment, monitoring, detection, threat-hunting, and awareness aids. They do not replace organization-specific risk assessments, engineering judgment, legal advice, regulatory requirements, safety procedures, vendor guidance, incident-response plans, or formal assurance activities.
 
 ## License and Responsible Use
 

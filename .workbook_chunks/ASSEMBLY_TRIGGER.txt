@@ -1,0 +1,1 @@
+This temporary file triggers the pull-request assembly workflow. The workflow removes the complete .workbook_chunks directory after validating and creating the Excel workbook.

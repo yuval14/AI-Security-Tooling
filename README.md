@@ -18,6 +18,14 @@ A SOC engineering workbook for measuring AI telemetry coverage, logs, operationa
 
 Key components include an AI SOC dashboard, observability metrics, telemetry-source requirements, an end-to-end trace model, incident repository mapping, AI incident-detection use cases, and a detection-response matrix.
 
+### AI-Enabled Threat Detection and Hunting Workbook
+
+- [Workbook page](./AI_Enabled_Threat_Detection_and_Hunting_Workbook/)
+
+A defensive detection-engineering and threat-hunting workbook for identifying covert or operational use of artificial intelligence during cyberattacks.
+
+The workbook provides fourteen detection and hunting scenarios, risk scoring, telemetry mapping, false-positive and tuning guidance, response actions, a hunt execution worksheet, and an executive dashboard. It connects model and agent activity with endpoint, network, identity, cloud, Git, CI/CD, DLP, GPU, SaaS, and Backend-as-a-Service telemetry.
+
 ### Google Cloud SOC Detection and Hunting Workbook
 
 - [Workbook page](./Google_Cloud_SOC_Detection_Hunting_Workbook/)

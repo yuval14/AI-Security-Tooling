@@ -18,6 +18,15 @@ A SOC engineering workbook for measuring AI telemetry coverage, logs, operationa
 
 Key components include an AI SOC dashboard, observability metrics, telemetry-source requirements, an end-to-end trace model, incident repository mapping, AI incident-detection use cases, and a detection-response matrix.
 
+### AI-Enabled Threat Detection and Hunting Workbook
+
+- [Workbook page](./AI_Enabled_Threat_Detection_and_Hunting_Workbook/)
+- [Download Excel workbook](./AI_Enabled_Threat_Detection_and_Hunting_Workbook/AI_Enabled_Threat_Detection_and_Hunting_Workbook_v1.0.xlsx)
+
+A defensive detection-engineering and threat-hunting workbook for identifying covert or operational use of artificial intelligence during cyberattacks.
+
+The workbook provides fourteen detection and hunt scenarios, risk scoring, telemetry mapping, false-positive guidance, response actions, an execution worksheet, and an executive dashboard. Coverage includes runtime model interaction, AI-generated code execution, agent access to secrets, AI share-link ClickFix, trusted BaaS credential collection, local inference, service identities, agentic lateral movement, and API-key pooling.
+
 ### Google Cloud SOC Detection and Hunting Workbook
 
 - [Workbook page](./Google_Cloud_SOC_Detection_Hunting_Workbook/)
@@ -55,7 +64,7 @@ The workbook incorporates practical mappings to major AI security and risk-manag
 ### AI Coding Agent Security Requirements
 
 - [Workbook page](./AI_Coding_Agent_Security_Requirements/)
-- [Download Excel workbook](./AI_Coding_Agent_Security_Requirements/AI_Coding_Agent_Security_Requirements%20Based%20on%20the%20Document%20The%20New%20SDLC%20With%20Vibe%20Coding_v1.0.xlsx)
+- [Download Excel workbook](./AI_Coding_Agent_Security_Requirements/AI%20Coding%20Agent%20Security%20Requirements%20Based%20on%20the%20Document%20The%20New%20SDLC%20With%20Vibe%20Coding_v1.0.xlsx)
 
 A security-requirements workbook for organizations using AI coding agents and agentic software-development workflows. It translates concepts from **The New SDLC With Vibe Coding** into practical requirements for governance, identity, permissions, repository access, execution isolation, secret protection, supply-chain security, testing, logging, traceability, human approval, incident response, and recovery.
 

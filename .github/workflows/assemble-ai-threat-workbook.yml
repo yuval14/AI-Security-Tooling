@@ -1,0 +1,60 @@
+name: Assemble AI Threat Detection Workbook
+
+on:
+  push:
+    branches:
+      - agent/add-ai-threat-detection-workbook
+    paths:
+      - '.workbook_chunks/**'
+      - '.github/workflows/assemble-ai-threat-workbook.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.workbook_chunks/**'
+      - '.github/workflows/assemble-ai-threat-workbook.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/add-ai-threat-detection-workbook
+
+      - name: Assemble and validate workbook
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p AI_Enabled_Threat_Detection_and_Hunting_Workbook
+          cat .workbook_chunks/part*.b64 | base64 --decode > AI_Enabled_Threat_Detection_and_Hunting_Workbook/AI_Enabled_Threat_Detection_and_Hunting_Workbook_v1.0.xlsx
+          echo "725ea591065e7f638c24df2eb820a2a4748e3676a6791f3fabdcedb4a6346c71  AI_Enabled_Threat_Detection_and_Hunting_Workbook/AI_Enabled_Threat_Detection_and_Hunting_Workbook_v1.0.xlsx" | sha256sum --check
+          python - <<'PY'
+          from zipfile import ZipFile
+          path = 'AI_Enabled_Threat_Detection_and_Hunting_Workbook/AI_Enabled_Threat_Detection_and_Hunting_Workbook_v1.0.xlsx'
+          with ZipFile(path) as workbook:
+              required = {'[Content_Types].xml', 'xl/workbook.xml', 'xl/styles.xml'}
+              missing = required.difference(workbook.namelist())
+              if missing:
+                  raise SystemExit(f'Missing required workbook components: {sorted(missing)}')
+          PY
+          rm -rf .workbook_chunks
+          rm -f .github/workflows/assemble-ai-threat-workbook.yml
+
+      - name: Commit assembled workbook
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Add AI-enabled threat detection workbook"
+          git push origin HEAD:agent/add-ai-threat-detection-workbook

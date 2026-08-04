@@ -10,9 +10,9 @@
 
 ## Purpose
 
-This workbook provides a structured defensive aid for identifying, prioritizing, engineering, testing, and documenting detections and threat hunts related to covert or operational use of artificial intelligence during cyberattacks.
+This workbook provides a structured defensive aid for identifying, prioritizing, testing, and documenting detections and threat hunts related to covert or operational use of artificial intelligence during cyberattacks.
 
-It focuses on observable workflows rather than attempting to identify AI involvement from writing style, code style, speed, or sophistication alone. The workbook is designed to connect AI-service activity with endpoint, network, identity, cloud, development, data, GPU, and SaaS telemetry.
+It focuses on observable workflows rather than attempting to identify AI involvement from writing style, code style, speed, or sophistication alone. It connects AI-service and agent activity with endpoint, network, identity, cloud, development, data, GPU, and SaaS telemetry.
 
 ## Intended Users
 
@@ -25,49 +25,23 @@ It focuses on observable workflows rather than attempting to identify AI involve
 - AI security architects
 - AI platform and model-gateway teams
 
-## Main Components
-
-### Executive Dashboard
-
-Summarizes the number of scenarios, risk priorities, implementation status, coverage estimates, open hunts, and confirmed malicious findings.
+## Workbook Sheets
 
 ### Detection Catalog
 
-Documents fourteen detection and hunting scenarios with:
-
-- Detection logic
-- Threat hypothesis
-- Primary and secondary data sources
-- Key entities
-- Detection window
-- Likelihood and impact scoring
-- Calculated risk score and priority
-- Suggested severity
-- MITRE ATT&CK tactics
-- Likely false positives
-- Tuning guidance
-- Initial response actions
-- Ownership, status, coverage, confidence, and review dates
+Documents fourteen detection and hunting scenarios with detection logic, primary telemetry, MITRE ATT&CK tactics, severity, likelihood, impact, calculated risk score, status, owner, and notes.
 
 ### Hunt Worksheet
 
-Provides a repeatable structure for recording hunt scope, dates, analysts, systems reviewed, queries, tools, evidence, outcomes, escalation, follow-up actions, and lessons learned.
+Provides a repeatable structure for recording hunt scope, dates, analyst, environment, status, outcome, systems reviewed, queries, tools, findings, evidence, and next actions.
 
 ### Telemetry Matrix
 
-Maps each scenario to required, recommended, optional, or non-applicable telemetry sources across:
+Maps every scenario to required, recommended, or optional visibility across EDR, DNS and proxy, AI gateway, cloud and IAM, Git and CI/CD, DLP and CASB, GPU and ML runtime, SaaS and Backend-as-a-Service, email, and web telemetry.
 
-- EDR and process telemetry
-- File and registry activity
-- DNS and proxy logs
-- Network and TLS metadata
-- AI gateway and model API logs
-- Cloud and IAM audit logs
-- Git and CI/CD telemetry
-- DLP and CASB
-- GPU and ML runtime telemetry
-- SaaS and Backend-as-a-Service platforms
-- Email and web telemetry
+### README
+
+Provides workbook metadata, purpose, use guidance, and the core analytic guardrail.
 
 ## Detection and Hunting Scenarios
 
@@ -101,12 +75,10 @@ Likelihood and impact are scored from 1 to 5.
 | 8-14 | Medium |
 | 1-7 | Low |
 
-Coverage is recorded separately because a high-risk scenario may still have weak telemetry, incomplete analytic logic, limited validation, or insufficient response readiness.
-
 ## Recommended Use
 
 1. Identify approved AI services, agents, local models, APIs, gateways, identities, tools, and development environments.
-2. Review the detection catalog and adjust likelihood, impact, severity, ownership, status, and coverage.
+2. Review the detection catalog and adjust likelihood, impact, severity, ownership, status, and notes.
 3. Use the telemetry matrix to identify collection and correlation gaps.
 4. Prioritize critical and high-risk scenarios for engineering and testing.
 5. Execute hunts using the Hunt Worksheet and retain supporting evidence.

@@ -21,10 +21,11 @@ Key components include an AI SOC dashboard, observability metrics, telemetry-sou
 ### AI-Enabled Threat Detection and Hunting Workbook
 
 - [Workbook page](./AI_Enabled_Threat_Detection_and_Hunting_Workbook/)
+- [Download Excel workbook](./AI_Enabled_Threat_Detection_and_Hunting_Workbook/AI_Enabled_Threat_Detection_and_Hunting_Workbook_v1.0.xlsx)
 
 A defensive detection-engineering and threat-hunting workbook for identifying covert or operational use of artificial intelligence during cyberattacks.
 
-The workbook provides fourteen detection and hunting scenarios, risk scoring, telemetry mapping, false-positive and tuning guidance, response actions, a hunt execution worksheet, and an executive dashboard. It connects model and agent activity with endpoint, network, identity, cloud, Git, CI/CD, DLP, GPU, SaaS, and Backend-as-a-Service telemetry.
+The workbook provides fourteen detection and hunting scenarios, risk scoring, a threat-hunt execution worksheet, and a telemetry matrix. It connects model and agent activity with endpoint, network, identity, cloud, Git, CI/CD, DLP, GPU, SaaS, and Backend-as-a-Service telemetry.
 
 ### Google Cloud SOC Detection and Hunting Workbook
 

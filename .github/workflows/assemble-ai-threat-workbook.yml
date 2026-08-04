@@ -7,6 +7,12 @@ on:
     paths:
       - '.workbook_chunks/**'
       - '.github/workflows/assemble-ai-threat-workbook.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.workbook_chunks/**'
+      - '.github/workflows/assemble-ai-threat-workbook.yml'
 
 permissions:
   contents: write

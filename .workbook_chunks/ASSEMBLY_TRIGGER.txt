@@ -1,1 +1,1 @@
-Retry the workbook assembly after adding normalized Base64 length validation. This temporary file and the complete .workbook_chunks directory are removed by the successful workflow.
+Run per-chunk SHA-256 validation before reconstructing the workbook. This temporary file is removed after successful assembly.

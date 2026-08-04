@@ -1,1 +1,1 @@
-Run per-chunk SHA-256 validation before reconstructing the workbook. This temporary file is removed after successful assembly.
+Run final per-chunk and full-workbook SHA-256 validation. The successful workflow removes this temporary file and all assembly artifacts.
